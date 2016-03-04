@@ -1,0 +1,60 @@
+﻿Build started 2016/2/27 21:51:23.
+     1>Project "D:\SMC\spsstereo\build\spsstereo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\programs\VisualStudio\VC\bin\CL.exe /c /ID:\SMC\spsstereo\libpng /ID:\SMC\spsstereo\png++ /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"spsstereo.dir\Debug\\" /Fd"spsstereo.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\SMC\spsstereo\SGMStereo.cpp
+         SGMStereo.cpp
+     1>d:\smc\spsstereo\png++\error.hpp(80): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\programs\VisualStudio\VC\include\string.h(168) : see declaration of 'strerror'
+     1>d:\smc\spsstereo\png++\packed_pixel.hpp(36): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\packed_pixel.hpp(37): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\packed_pixel.hpp(38): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\packed_pixel.hpp(90): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgb_pixel.hpp(37): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgb_pixel.hpp(38): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgb_pixel.hpp(39): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgb_pixel.hpp(96): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgba_pixel.hpp(37): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgba_pixel.hpp(38): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgba_pixel.hpp(39): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgba_pixel.hpp(40): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\rgba_pixel.hpp(102): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\ga_pixel.hpp(39): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\ga_pixel.hpp(40): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\ga_pixel.hpp(41): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\ga_pixel.hpp(92): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info_base.hpp(38): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info_base.hpp(39): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info_base.hpp(40): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info_base.hpp(82): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info.hpp(38): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info.hpp(39): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info.hpp(40): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\info.hpp(158): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\io_base.hpp(41): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\io_base.hpp(42): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\io_base.hpp(43): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\io_base.hpp(44): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\io_base.hpp(475): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\reader.hpp(37): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\reader.hpp(38): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\reader.hpp(39): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\reader.hpp(40): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\reader.hpp(185): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\consumer.hpp(45): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\consumer.hpp(46): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\consumer.hpp(47): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\consumer.hpp(262): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\convert_color_space.hpp(43): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\convert_color_space.hpp(44): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\convert_color_space.hpp(45): warning C4068: unknown pragma
+     1>d:\smc\spsstereo\png++\convert_color_space.hpp(344): warning C4068: unknown pragma
+       Link:
+         D:\programs\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SMC\spsstereo\build\Debug\spsstereo.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\SMC\spsstereo\libpng\build\Debug /LIBPATH:D:\SMC\spsstereo\png++ kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib libpng16d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SMC/spsstereo/build/Debug/spsstereo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/SMC/spsstereo/build/Debug/spsstereo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 spsstereo.dir\Debug\SGMStereo.obj
+         spsstereo.dir\Debug\SPSStereo.obj
+         spsstereo.dir\Debug\spsstereo_main.obj
+         spsstereo.vcxproj -> D:\SMC\spsstereo\build\Debug\spsstereo.exe
+     1>Done Building Project "D:\SMC\spsstereo\build\spsstereo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79

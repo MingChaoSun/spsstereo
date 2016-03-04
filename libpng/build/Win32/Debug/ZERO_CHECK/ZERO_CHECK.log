@@ -1,0 +1,10 @@
+﻿Build started 2016/2/27 18:23:04.
+     1>Project "D:\SMC\Test2\libpng\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/SMC/Test2/libpng/build/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "D:\SMC\Test2\libpng\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

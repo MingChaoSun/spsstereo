@@ -1,0 +1,40 @@
+﻿Build started 2016/2/27 20:06:22.
+     1>Project "D:\SMC\spsstereo\build\spsstereo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\programs\VisualStudio\VC\bin\CL.exe /c /nologo /Wall /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"spsstereo.dir\Release\\" /Fd"spsstereo.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -O3 -msse4.2 D:\SMC\spsstereo\SGMStereo.cpp D:\SMC\spsstereo\SPSStereo.cpp D:\SMC\spsstereo\spsstereo_main.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '-O3'
+     1>cl : Command line warning D9002: ignoring unknown option '-msse4.2'
+         SGMStereo.cpp
+     1>d:\smc\spsstereo\SGMStereo.h(20): fatal error C1083: Cannot open include file: 'png.hpp': No such file or directory
+         SPSStereo.cpp
+     1>D:\programs\VisualStudio\VC\include\wchar.h(119): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::attrib'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(124): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::name'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(128): warning C4820: '_wfinddata64_t' : '4' bytes padding added after data member '_wfinddata64_t::attrib'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(508): warning C4820: '_stat32' : '2' bytes padding added after data member '_stat32::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(524): warning C4820: 'stat' : '2' bytes padding added after data member 'stat::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(540): warning C4820: '_stat32i64' : '2' bytes padding added after data member '_stat32i64::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(541): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_rdev'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(545): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_ctime'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(554): warning C4820: '_stat64i32' : '2' bytes padding added after data member '_stat64i32::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(568): warning C4820: '_stat64' : '2' bytes padding added after data member '_stat64::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(569): warning C4820: '_stat64' : '4' bytes padding added after data member '_stat64::st_rdev'
+     1>d:\smc\spsstereo\SPSStereo.h(22): fatal error C1083: Cannot open include file: 'png.hpp': No such file or directory
+         spsstereo_main.cpp
+     1>D:\programs\VisualStudio\VC\include\wchar.h(119): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::attrib'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(124): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::name'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(128): warning C4820: '_wfinddata64_t' : '4' bytes padding added after data member '_wfinddata64_t::attrib'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(508): warning C4820: '_stat32' : '2' bytes padding added after data member '_stat32::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(524): warning C4820: 'stat' : '2' bytes padding added after data member 'stat::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(540): warning C4820: '_stat32i64' : '2' bytes padding added after data member '_stat32i64::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(541): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_rdev'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(545): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_ctime'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(554): warning C4820: '_stat64i32' : '2' bytes padding added after data member '_stat64i32::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(568): warning C4820: '_stat64' : '2' bytes padding added after data member '_stat64::st_gid'
+     1>D:\programs\VisualStudio\VC\include\wchar.h(569): warning C4820: '_stat64' : '4' bytes padding added after data member '_stat64::st_rdev'
+     1>D:\SMC\spsstereo\spsstereo_main.cpp(22): fatal error C1083: Cannot open include file: 'png.hpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\SMC\spsstereo\build\spsstereo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56

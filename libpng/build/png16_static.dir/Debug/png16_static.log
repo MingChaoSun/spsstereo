@@ -1,0 +1,45 @@
+﻿Build started 2016/2/27 18:23:05.
+     1>Project "D:\SMC\Test2\libpng\build\png16_static.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/SMC/Test2/libpng/CMakeLists.txt
+         CMake does not need to re-run because D:\SMC\Test2\libpng\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\programs\VisualStudio\VC\bin\CL.exe /c /I"C:\Program Files (x86)\GnuWin32\include" /ID:\SMC\Test2\libpng\build /ID:\SMC\Test2\libpng /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"png16_static.dir\Debug\\" /Fd"png16_static.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt D:\SMC\Test2\libpng\png.c D:\SMC\Test2\libpng\pngerror.c D:\SMC\Test2\libpng\pngget.c D:\SMC\Test2\libpng\pngmem.c D:\SMC\Test2\libpng\pngpread.c D:\SMC\Test2\libpng\pngread.c D:\SMC\Test2\libpng\pngrio.c D:\SMC\Test2\libpng\pngrtran.c D:\SMC\Test2\libpng\pngrutil.c D:\SMC\Test2\libpng\pngset.c D:\SMC\Test2\libpng\pngtrans.c D:\SMC\Test2\libpng\pngwio.c D:\SMC\Test2\libpng\pngwrite.c D:\SMC\Test2\libpng\pngwtran.c D:\SMC\Test2\libpng\pngwutil.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+         Generating Code...
+       Lib:
+         D:\programs\VisualStudio\VC\bin\Lib.exe /OUT:"D:\SMC\Test2\libpng\build\Debug\libpng16_staticd.lib" /NOLOGO  /machine:X86 png16_static.dir\Debug\png.obj
+         png16_static.dir\Debug\pngerror.obj
+         png16_static.dir\Debug\pngget.obj
+         png16_static.dir\Debug\pngmem.obj
+         png16_static.dir\Debug\pngpread.obj
+         png16_static.dir\Debug\pngread.obj
+         png16_static.dir\Debug\pngrio.obj
+         png16_static.dir\Debug\pngrtran.obj
+         png16_static.dir\Debug\pngrutil.obj
+         png16_static.dir\Debug\pngset.obj
+         png16_static.dir\Debug\pngtrans.obj
+         png16_static.dir\Debug\pngwio.obj
+         png16_static.dir\Debug\pngwrite.obj
+         png16_static.dir\Debug\pngwtran.obj
+         png16_static.dir\Debug\pngwutil.obj
+         png16_static.vcxproj -> D:\SMC\Test2\libpng\build\Debug\libpng16_staticd.lib
+     1>Done Building Project "D:\SMC\Test2\libpng\build\png16_static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.89

@@ -1,0 +1,46 @@
+﻿Build started 2016/2/27 18:23:05.
+     1>Project "D:\SMC\Test2\libpng\build\png16.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/SMC/Test2/libpng/CMakeLists.txt
+         CMake does not need to re-run because D:\SMC\Test2\libpng\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\programs\VisualStudio\VC\bin\CL.exe /c /I"C:\Program Files (x86)\GnuWin32\include" /ID:\SMC\Test2\libpng\build /ID:\SMC\Test2\libpng /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D PNG_BUILD_DLL /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"png16.dir\Debug\\" /Fd"png16.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt D:\SMC\Test2\libpng\png.c D:\SMC\Test2\libpng\pngerror.c D:\SMC\Test2\libpng\pngget.c D:\SMC\Test2\libpng\pngmem.c D:\SMC\Test2\libpng\pngpread.c D:\SMC\Test2\libpng\pngread.c D:\SMC\Test2\libpng\pngrio.c D:\SMC\Test2\libpng\pngrtran.c D:\SMC\Test2\libpng\pngrutil.c D:\SMC\Test2\libpng\pngset.c D:\SMC\Test2\libpng\pngtrans.c D:\SMC\Test2\libpng\pngwio.c D:\SMC\Test2\libpng\pngwrite.c D:\SMC\Test2\libpng\pngwtran.c D:\SMC\Test2\libpng\pngwutil.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+         Generating Code...
+       Link:
+         D:\programs\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SMC\Test2\libpng\build\Debug\libpng16d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files (x86)\GnuWin32\lib\zdll.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SMC/Test2/libpng/build/Debug/libpng16d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/SMC/Test2/libpng/build/Debug/libpng16d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL png16.dir\Debug\png.obj
+         png16.dir\Debug\pngerror.obj
+         png16.dir\Debug\pngget.obj
+         png16.dir\Debug\pngmem.obj
+         png16.dir\Debug\pngpread.obj
+         png16.dir\Debug\pngread.obj
+         png16.dir\Debug\pngrio.obj
+         png16.dir\Debug\pngrtran.obj
+         png16.dir\Debug\pngrutil.obj
+         png16.dir\Debug\pngset.obj
+         png16.dir\Debug\pngtrans.obj
+         png16.dir\Debug\pngwio.obj
+         png16.dir\Debug\pngwrite.obj
+         png16.dir\Debug\pngwtran.obj
+         png16.dir\Debug\pngwutil.obj
+            Creating library D:/SMC/Test2/libpng/build/Debug/libpng16d.lib and object D:/SMC/Test2/libpng/build/Debug/libpng16d.exp
+         png16.vcxproj -> D:\SMC\Test2\libpng\build\Debug\libpng16d.dll
+     1>Done Building Project "D:\SMC\Test2\libpng\build\png16.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.01

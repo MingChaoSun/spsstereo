@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: D:/SMC/Test2/libpng
+# Build directory: D:/SMC/Test2/libpng/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(pngtest "./pngtest" "D:/SMC/Test2/libpng/pngtest.png")
+add_test(pngvalid "./pngvalid")
+add_test(pngstest "./pngstest" "D:/SMC/Test2/libpng/contrib/pngsuite/basn0g01.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn0g02.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn0g04.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn0g08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn0g16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn2c08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn2c16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn3p01.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn3p02.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn3p04.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn3p08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn4a08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn4a16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn6a08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/basn6a16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbbn0g01.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbbn0g02.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbbn0g04.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbbn2c16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbbn3p08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbgn2c16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbgn3p08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbrn2c08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbwn0g16.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbwn3p08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftbyn3p08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftp0n0g08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftp0n2c08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftp0n3p08.png" "D:/SMC/Test2/libpng/contrib/pngsuite/ftp1n3p08.png")

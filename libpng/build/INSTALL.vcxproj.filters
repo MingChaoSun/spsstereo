@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\SMC\Test2\libpng\build\CMakeFiles\c36d473c9ee2739648a8938c29dc42eb\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{20D51DAF-F518-3546-B07A-6239F703E85F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
